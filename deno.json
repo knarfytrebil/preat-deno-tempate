@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.jsx"
+  },
+  "imports": {
+    "preact": "npm:preact/compat",
+    "@reduxjs/toolkit": "npm:@reduxjs/toolkit",
+    "preact/jsx-runtime": "https://cdn.skypack.dev/preact/jsx-runtime?dts",
+    "preact/jsx-dev-runtime": "https://cdn.skypack.dev/preact/jsx-dev-runtime?dts",
+    "preact-render-to-string": "npm:preact-render-to-string"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
