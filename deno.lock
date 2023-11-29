@@ -7,7 +7,8 @@
       "npm:preact-render-to-string": "npm:preact-render-to-string@6.3.1_preact@10.19.2",
       "npm:react": "npm:react@18.2.0",
       "npm:react-dom": "npm:react-dom@18.2.0_react@18.2.0",
-      "npm:react-redux": "npm:react-redux@8.1.3_react@18.2.0"
+      "npm:react-redux": "npm:react-redux@8.1.3_react@18.2.0",
+      "npm:react-serialize": "npm:react-serialize@0.2.1_react@18.2.0"
     },
     "npm": {
       "@babel/runtime@7.23.4": {
@@ -117,6 +118,12 @@
           "react": "react@18.2.0",
           "react-is": "react-is@18.2.0",
           "use-sync-external-store": "use-sync-external-store@1.2.0_react@18.2.0"
+        }
+      },
+      "react-serialize@0.2.1_react@18.2.0": {
+        "integrity": "sha512-oTt/9xxrBt+7KxCrhZqmF3nZTGRNpb0d55eXnzApgeYXA7uVrZAfyhTAf/vvzxYP4JOSQUTNI/Hs4GdxMys3Sg==",
+        "dependencies": {
+          "react": "react@18.2.0"
         }
       },
       "react@18.2.0": {
